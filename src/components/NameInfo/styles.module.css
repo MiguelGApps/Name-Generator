@@ -1,0 +1,17 @@
+.nameInfoDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nameInfoName {
+  margin: 0;
+  font-size: 5rem;
+}
+
+.nameInfoNumber {
+  margin: 0;
+  font-size: 1rem;
+  color: #929292;
+}

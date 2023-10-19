@@ -1,0 +1,39 @@
+.button {
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  border: 0.15rem solid #f2f2f2;
+  color: #323232;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  margin: 0;
+  padding: 0.875rem 1.5rem;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 100%;
+  height: fit-content;
+}
+
+.button:hover {
+  background-color: #7f5ef2;
+  border-color: #7f5ef2;
+  color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 4px 12px;
+}
+
+.button.selected {
+  background-color: #703ff2;
+  border-color: #703ff2;
+  color: #ffffff;
+}
+
+.button.selected:hover {
+  background-color: #7f5ef2;
+  border-color: #7f5ef2;
+}
